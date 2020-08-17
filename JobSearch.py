@@ -33,7 +33,7 @@ def open_naukril_url(browser):
 
 def login_into_naukri_url(browser):
     username = "nikkyvineeth@gmail.com"
-    password = "7404325884"
+    password = ""
     browser.find_element_by_id("usernameField").send_keys(username)
     browser.find_element_by_id("passwordField").send_keys(password)
     browser.find_element_by_xpath("//button[@data-ga-track='spa-event|login|login|Save']").click()
